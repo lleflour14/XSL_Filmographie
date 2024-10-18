@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE films SYSTEM "filmographie.dtd">-->
+<?xml-stylesheet href="filmographie.xsl" type="text/xsl" ?>
+
+<films xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="Schema_filmo.xml">
+
+    <film anneeSortie="2005" visa="114089">
+        <titre>King Kong</titre>
+        <nationalite>Américain</nationalite>
+        <exploitation>
+            <dateSortie jourSemaine="mercredi" jour="14" mois="décembre" annee="2005"/>
+            <nbrEntrees>28359</nbrEntrees>
+            <nbrSalle>547</nbrSalle>
+        </exploitation>
+        <acteurs>
+            <acteur ref="1">Peter Jackson</acteur>
+            <acteur ref="2">Naomi Watts</acteur>
+            <acteur ref="3">Jack Black</acteur>
+            <acteur ref="4">Adrien Brody</acteur>
+        </acteurs>
+        <realisateur prenom="Peter" nom="Jackson"/>
+        <genres>
+            <genre>aventure</genre>
+        </genres>
+        <duree unite="min">188</duree>
+        <scenario>
+            New York, 1933. <ev>Artiste de music-hall à la rue</ev>, <personnage>Ann Darrow</personnage> rencontre l'audacieux explorateur/réalisateur <personnage>Carl
+                Denham</personnage>. Ce dernier <keyword>rêve</keyword> de terminer son lm inachevé, mais nourrit surtout la folle <keyword>ambition</keyword> d'être <ev>le premier à
+                découvrir le secret de la mystérieuse Skull Island.</ev> Il va entraîner Ann dans sa périlleuse aventure... ]]
+        </scenario>
+        <image ref="KingKong.jpeg"></image>
+    </film>
+    <film anneeSortie="2005" visa="114088">
+        <titre>Charlie et la chocolaterie</titre>
+        <nationalite>Américain</nationalite>
+        <exploitation>
+            <dateSortie jourSemaine="mercredi" jour="13" mois="juillet" annee="2005"/>
+            <nbrEntrees>4138208</nbrEntrees>
+            <nbrSalle>209</nbrSalle>
+            <listePays>
+                <pays>Belgique</pays>
+                <pays>Suisse</pays>
+            </listePays>
+        </exploitation>
+        <acteurs>
+            <acteur ref="5">Johnny Depp</acteur>
+            <acteur ref="6">Helena Bonham Carter</acteur>
+            <acteur ref="7">Christopher Lee</acteur>
+        </acteurs>
+        <realisateur prenom="Tim" nom="Burton"/>
+        <genres>
+            <genre>comedie</genre>
+        </genres>
+        <duree unite="min">115</duree>
+        <scenario>
+            L'excentrique <keyword>chocolatier</keyword> <personnage>Willy Wonka</personnage> lance un <ev>concours pour dénicher son successeur</ev>. 5 enfants, dont <personnage>Charlie</personnage>, gagnent ainsi une <ev>visite guidée</ev> de la mythique <keyword> usine</keyword> interdite au public depuis 15 ans. Fasciné, Charlie plonge dans le monde fantastique de Wonka et nous entraîne dans une histoire émouvante et hors du commun
+        </scenario>
+        <image ref="CharlieEtLaChocolaterie.jpeg"></image>
+    </film>
+
+    <film anneeSortie="2003" visa="114087">
+        <titre>Pirates des Caraibes, la Malédiction du Black Pearl</titre>
+        <nationalite>Américain</nationalite>
+        <exploitation>
+            <dateSortie jourSemaine="mercredi" jour="13" mois="aout" annee="2003"/>
+            <nbrEntrees>10135508</nbrEntrees>
+            <nbrSalle>208</nbrSalle>
+            <listePays>
+                <pays>Suisse</pays>
+            </listePays>
+        </exploitation>
+        <acteurs>
+            <acteur ref="5">Johnny Depp</acteur>
+            <acteur ref="8">Geoffrey Rush</acteur>
+            <acteur ref="9">Keira Knightley</acteur>
+
+        </acteurs>
+        <realisateur prenom="Gore" nom="Verbinski"/>
+        <genres>
+            <genre>action</genre>
+            <genre>aventure</genre>
+            <genre>fantastique</genre>
+        </genres>
+        <duree unite="min">140</duree>
+        <scenario>
+            Dans la <keyword>mer</keyword> des Caraïbes, au XVIIe siècle,<personnage> Jack Sparrow</personnage>, flibustier gentleman, voit sa vie idylle basculer le jour où son ennemi, le perfide capitaine <personnage> Barbossa</personnage>, lui vole son<keyword> bateau</keyword>, le Black Pearl, puis attaque la ville de Port Royal, enlevant au passage la très belle fille du gouverneur,<personnage> Elizabeth Swann</personnage>. L'ami d'enfance de celle-ci,<personnage> Will Turner</personnage>, se joint à Jack pour se lancer aux trousses du capitaine. Mais Will ignore qu'une <keyword>malédiction</keyword> frappe Barbossa et ses pirates. Lorsque la lune brille, ils se transforment en <keyword>morts-vivants</keyword>. Leur <ev>terrible sort ne prendra fin que le jour où le fabuleux trésor qu'ils ont amassé sera restitué...</ev>
+        </scenario>
+        <image ref="PiratesDesCaraibes.jpeg"></image>
+    </film>
+
+    <film anneeSortie="2023" visa="114086">
+        <titre>Oppenheimer</titre>
+        <nationalite>Américain</nationalite>
+        <exploitation>
+            <dateSortie jourSemaine="mercredi" jour="19" mois="juillet" annee="2023"/>
+            <nbrEntrees>4446424</nbrEntrees>
+            <nbrSalle>508</nbrSalle>
+            <listePays>
+                <pays>Belgique</pays>
+            </listePays>
+        </exploitation>
+        <acteurs>
+            <acteur ref="10">Cillian Murphy</acteur>
+            <acteur ref="11">Matt Damon</acteur>
+            <acteur ref="12">Emily Blunt</acteur>
+            <acteur ref="13">Robert Dawney Jr</acteur>
+            <acteur ref="14">Florence Pugh</acteur>
+        </acteurs>
+        <realisateur prenom="Christopher" nom="Nolan"/>
+        <genres>
+            <genre>biopic</genre>
+            <genre>historique</genre>
+            <genre>thriller</genre>
+        </genres>
+        <duree unite="min">181</duree>
+        <scenario>
+            En 1942, convaincus que l’Allemagne nazie est en train de développer une <keyword>arme</keyword> nucléaire,<ev> les États-Unis initient, dans le plus grand secret, le "Projet Manhattan"</ev> destiné à mettre au point la première <keyword>bombe</keyword> atomique de l’histoire. Pour piloter ce dispositif, le gouvernement engage <personnage> J. Robert Oppenheimer</personnage>, brillant physicien, qui sera bientôt surnommé "le père de la bombe atomique". C’est dans le laboratoire ultra-secret de Los Alamos, au cœur du désert du Nouveau-Mexique, que <ev>le scientifique et son équipe mettent au point une arme révolutionnaire</ev> dont les conséquences, vertigineuses, continuent de peser sur le monde actuel…
+        </scenario>
+        <image ref="oppenheimer.jpeg"></image>
+    </film>
+
+    <film anneeSortie="2014" visa="114085">
+        <titre>Interstellar</titre>
+        <nationalite>Américain</nationalite>
+        <exploitation>
+            <dateSortie jourSemaine="mercredi" jour="5" mois="novembre" annee="2014"/>
+            <nbrEntrees>45555666</nbrEntrees>
+            <nbrSalle>555</nbrSalle>
+            <listePays>
+                <pays>Belgique</pays>
+                <pays>Autriche</pays>
+            </listePays>
+        </exploitation>
+        <acteurs>
+            <acteur ref="15">Matthew McConaughey</acteur>
+            <acteur ref="16">Anne Hathaway</acteur>
+        </acteurs>
+        <realisateur prenom="Christopher" nom="Nolan"/>
+        <genres>
+            <genre>drame</genre>
+            <genre>science-fiction</genre>
+        </genres>
+        <duree unite="min">169</duree>
+        <scenario>
+            Le film raconte les aventures d’un groupe d’<keyword>explorateurs</keyword> qui utilisent <ev>une faille récemment découverte dans l’espace-temps afin de repousser les limites humaines et partir à la conquête des distances astronomiques </ev>dans un voyage <keyword>interstellaire</keyword>.
+        </scenario>
+        <image ref="interstellar.jpeg"></image>
+    </film>
+
+    <film anneeSortie="1994" visa="114084">
+        <titre>Le roi lion</titre>
+        <nationalite>Américain</nationalite>
+        <exploitation>
+            <dateSortie jourSemaine="mercredi" jour="23" mois="novembre" annee="1994"/>
+            <nbrEntrees>45598766</nbrEntrees>
+            <nbrSalle>575</nbrSalle>
+            <listePays>
+                <pays>Suisse</pays>
+                <pays>Autriche</pays>
+            </listePays>
+        </exploitation>
+        <acteurs>
+            <acteur ref="17">Emmanuel Curtil</acteur>
+            <acteur ref="18">Matthew Broderick</acteur>
+        </acteurs>
+        <realisateur prenom="Roger" nom="Allers"/>
+        <genres>
+            <genre>aventure</genre>
+            <genre>animation</genre>
+        </genres>
+        <duree unite="min">99</duree>
+        <scenario>
+            Sur les Hautes terres d’Afrique règne un <keyword>lion</keyword> tout-puissant, le <keyword>roi</keyword> <personnage>Mufasa</personnage>, que tous les hôtes de la jungle respectent et admirent pour sa sagesse et sa générosité. Son jeune fils<personnage> Simba</personnage> sait qu’un jour il lui succédera, conformément aux lois universelles du cycle de la vie, mais il est loin de deviner <ev>les épreuves et les sacrifices que lui imposera l’exercice du pouvoir</ev>.
+        </scenario>
+        <image ref="leRoiLion.jpeg"></image>
+    </film>
+
+    <film anneeSortie="2006" visa="114083">
+        <titre>Barbie au bal des 12 princesses</titre>
+        <nationalite>Américain</nationalite>
+        <exploitation>
+            <dateSortie jourSemaine="mercredi" jour="1" mois="février" annee="2006"/>
+            <nbrEntrees>48959876</nbrEntrees>
+            <nbrSalle>579</nbrSalle>
+            <listePays>
+                <pays>Suisse</pays>
+                <pays>Finlande</pays>
+            </listePays>
+        </exploitation>
+        <acteurs>
+            <acteur ref="19">Kelly Sheridan</acteur>
+            <acteur ref="20">Ashleigh Ball</acteur>
+        </acteurs>
+        <realisateur prenom="Greg" nom="Richardson"/>
+        <genres>
+            <genre>famille</genre>
+            <genre>animation</genre>
+        </genres>
+        <duree unite="min">83</duree>
+        <scenario>
+            Avec ses 11 <keyword>soeurs</keyword>, <personnage>Princesse Geneviève</personnage> découvre un <ev>passage secret qui les emmène dans un monde enchanteur</ev> fait de <keyword>danse</keyword> et de joie, et où les souhaits deviennent réalités. Mais lorsque le roi est en danger, <keyword>Princesse</keyword> Geneviève et ses soeurs vont devoir s'entraider afin de sauver leur père et le royaume. Elles apprennent alors que la solidarité et le pouvoir d'une famille peut venir à bout de tous les obstacles...
+        </scenario>
+        <image ref="Barbie.jpeg"></image>
+    </film>
+
+    <film anneeSortie="2002" visa="114082">
+        <titre>Astérix et Obélix : Mission Cléopâtre</titre>
+        <nationalite>Français</nationalite>
+        <exploitation>
+            <dateSortie jourSemaine="mercredi" jour="30" mois="janvier" annee="2002"/>
+            <nbrEntrees>485599876</nbrEntrees>
+            <nbrSalle>479</nbrSalle>
+            <listePays>
+                <pays>Pays-Bas</pays>
+                <pays>Finlande</pays>
+            </listePays>
+        </exploitation>
+        <acteurs>
+            <acteur ref="21">Christian Clavier</acteur>
+            <acteur ref="22">Jamel Debbouze</acteur>
+        </acteurs>
+        <realisateur prenom="Alain" nom="Chabat"/>
+        <genres>
+            <genre>comedie</genre>
+        </genres>
+        <duree unite="min">112</duree>
+        <scenario>
+        <personnage>Cléopâtre</personnage>, la reine d’Égypte, décide, <ev>pour défier l'Empereur romain Jules César</ev>, de construire en trois mois un <keyword>palais</keyword> somptueux en plein désert. Si elle y parvient, celui-ci devra <ev>concéder publiquement que le peuple égyptien est le plus grand de tous les peuples</ev>. Pour ce faire, Cléopâtre fait appel à Numérobis, un architecte d'avant-garde plein d'énergie. S'il réussit, elle le couvrira d'or. S'il échoue, elle le jettera aux crocodiles.
+        </scenario>
+        <image ref="Asterix.jpeg"></image>
+    </film>
+
+    <acteurDescription id="1">
+        <nom>Jackson</nom>
+        <prenom>Peter</prenom>
+        <dateNaissance>1961-10-31</dateNaissance>
+        <sexe>M</sexe>
+        <lieuNaissance>Nouvelle-Zélande</lieuNaissance>
+    </acteurDescription>
+
+    <acteurDescription id="2">
+        <nom>Watts</nom>
+        <prenom>Naomi</prenom>
+        <dateNaissance>1968-09-28</dateNaissance>
+        <sexe>F</sexe>
+        <lieuNaissance>Grande-Bretagne</lieuNaissance>
+    </acteurDescription>
+   
+    <acteurDescription id="3">
+        <nom>Black</nom>
+        <prenom>Jack</prenom>
+        <dateNaissance>1969-08-28</dateNaissance>
+        <sexe>M</sexe>
+        <lieuNaissance>Etats-unis</lieuNaissance>
+    </acteurDescription>
+
+    <acteurDescription id="4">
+        <nom>Brody</nom>
+        <prenom>Adrien</prenom>
+        <dateNaissance>1973-04-14</dateNaissance>
+        <sexe>M</sexe>
+        <lieuNaissance>Etats-unis</lieuNaissance>
+    </acteurDescription>
+
+    <acteurDescription id="5">
+        <nom>Depp</nom>
+        <prenom>Johnny</prenom>
+        <dateNaissance>1963-06-09</dateNaissance>
+        <sexe>M</sexe>
+        <lieuNaissance>Etats-unis</lieuNaissance>
+    </acteurDescription>
+
+    <acteurDescription id="6">
+        <nom>Bonham Carter</nom>
+        <prenom>Helena</prenom>
+        <dateNaissance>1966-05-26</dateNaissance>
+        <sexe>F</sexe>
+        <lieuNaissance>Grande-Bretagne</lieuNaissance>
+    </acteurDescription>
+
+    <acteurDescription id="7">
+        <nom>Lee</nom>
+        <prenom>Christopher</prenom>
+        <dateNaissance>1922-05-27</dateNaissance>
+        <sexe>M</sexe>
+        <lieuNaissance>Serbie</lieuNaissance>
+    </acteurDescription>
+
+    <acteurDescription id="8">
+        <nom>Rush</nom>
+        <prenom>Geoffrey</prenom>
+        <dateNaissance>1951-07-06</dateNaissance>
+        <sexe>M</sexe>
+        <lieuNaissance>Australie</lieuNaissance>
+    </acteurDescription>
+
+    <acteurDescription id="9">
+        <nom>Knightley</nom>
+        <prenom>Keira</prenom>
+        <dateNaissance>1985-03-26</dateNaissance>
+        <sexe>F</sexe>
+        <lieuNaissance>Grande-Bretagne</lieuNaissance>
+    </acteurDescription>
+
+    <acteurDescription id="10">
+        <nom>Murphy</nom>
+        <prenom>Cillian</prenom>
+        <dateNaissance>1976-05-25</dateNaissance>
+        <sexe>M</sexe>
+        <lieuNaissance>Irlande</lieuNaissance>
+    </acteurDescription>
+
+    <acteurDescription id="11">
+        <nom>Damon</nom>
+        <prenom>Matt</prenom>
+        <dateNaissance>1970-10-08</dateNaissance>
+        <sexe>M</sexe>
+        <lieuNaissance>Etats-Unis</lieuNaissance>
+    </acteurDescription>
+
+    <acteurDescription id="12">
+        <nom>Blunt</nom>
+        <prenom>Emily</prenom>
+        <dateNaissance>1983-02-23</dateNaissance>
+        <sexe>F</sexe>
+        <lieuNaissance>Royaume-Uni</lieuNaissance>
+    </acteurDescription>
+
+    <acteurDescription id="13">
+        <nom>Dawney Jr</nom>
+        <prenom>Robert</prenom>
+        <dateNaissance>1965-04-04</dateNaissance>
+        <sexe>M</sexe>
+        <lieuNaissance>Etats-Unis</lieuNaissance>
+    </acteurDescription>
+
+    <acteurDescription id="14">
+        <nom>Pugh</nom>
+        <prenom>Florence</prenom>
+        <dateNaissance>1993-01-03</dateNaissance>
+        <sexe>F</sexe>
+        <lieuNaissance>Grande-Bretagne</lieuNaissance>
+    </acteurDescription>
+
+    <acteurDescription id="15">
+        <nom>McConaughey</nom>
+        <prenom>Matthew</prenom>
+        <dateNaissance>1969-11-04</dateNaissance>
+        <sexe>M</sexe>
+        <lieuNaissance>Etats-Unis</lieuNaissance>
+    </acteurDescription>
+
+    <acteurDescription id="16">
+        <nom>Hathaway</nom>
+        <prenom>Anne</prenom>
+        <dateNaissance>1982-11-12</dateNaissance>
+        <sexe>F</sexe>
+        <lieuNaissance>Etats-Unis</lieuNaissance>
+    </acteurDescription>
+
+    <acteurDescription id="17">
+        <nom>Curtil</nom>
+        <prenom>Emmanuel</prenom>
+        <dateNaissance>1971-04-07</dateNaissance>
+        <sexe>M</sexe>
+        <lieuNaissance>France</lieuNaissance>
+    </acteurDescription>
+
+    <acteurDescription id="18">
+        <nom>Broderick</nom>
+        <prenom>Matthew</prenom>
+        <dateNaissance>1962-05-21</dateNaissance>
+        <sexe>M</sexe>
+        <lieuNaissance>Etats-Unis</lieuNaissance>
+    </acteurDescription>
+
+    <acteurDescription id="19">
+        <nom>Sheridan</nom>
+        <prenom>Kelly</prenom>
+        <dateNaissance>1977-05-19</dateNaissance>
+        <sexe>F</sexe>
+        <lieuNaissance>Canada</lieuNaissance>
+    </acteurDescription>
+
+    <acteurDescription id="20">
+        <nom>Ball</nom>
+        <prenom>Ashleigh</prenom>
+        <dateNaissance>1983-03-31</dateNaissance>
+        <sexe>F</sexe>
+        <lieuNaissance>France</lieuNaissance>
+    </acteurDescription>
+
+    <acteurDescription id="21">
+        <nom>Clavier</nom>
+        <prenom>Christian</prenom>
+        <dateNaissance>1952-05-06</dateNaissance>
+        <sexe>M</sexe>
+        <lieuNaissance>France</lieuNaissance>
+    </acteurDescription>
+
+    <acteurDescription id="22">
+        <nom>Debbouze</nom>
+        <prenom>Jamel</prenom>
+        <dateNaissance>1975-06-18</dateNaissance>
+        <sexe>M</sexe>
+        <lieuNaissance>France</lieuNaissance>
+    </acteurDescription>
+
+    
+    
+</films>
